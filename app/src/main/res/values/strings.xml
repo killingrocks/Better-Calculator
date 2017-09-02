@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="num_0">0</string>
+    <string name="num_1">1</string>
+    <string name="num_2">2</string>
+    <string name="num_3">3</string>
+    <string name="num_4">4</string>
+    <string name="num_5">5</string>
+    <string name="num_6">6</string>
+    <string name="num_7">7</string>
+    <string name="num_8">8</string>
+    <string name="num_9">9</string>
+    <string name="string_answer"> = </string>
+    <string name="basic_math_add"> + </string>
+    <string name="basic_math_subtract"> - </string>
+    <string name="basic_math_multiply"> * </string>
+    <string name="basic_math_divide"> / </string>
+    <string name="clear_view"> C </string>
+    <string name="decimal_place"> . </string>
+    <string name="plus_or_minus"> +/- </string>
+    <string name="back_space"><![CDATA[<-]]></string>
+</resources>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/padding_right_padding"
+    android:background="@android:color/darker_gray"
+    tools:context="com.example.meoryou.calculator.calculator"
+    android:layout_weight="1">
+
+    <TextView
+        android:id="@+id/display_operation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="@string/num_0"
+        android:gravity="end"
+        android:padding="@dimen/padding_right_padding"
+        android:maxLines="1"
+        android:textAlignment="viewEnd"
+        android:textSize="64sp" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@id/clear_view"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@android:color/darker_gray"
+            android:text="@string/clear_view"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:onClick="buttonClearViewOnClick"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@id/plus_or_minus"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@android:color/darker_gray"
+            android:text="@string/plus_or_minus"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:onClick="buttonPlusOrMinusOnClick"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@id/back_space"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@android:color/darker_gray"
+            android:text="@string/back_space"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:onClick="buttonBackSpaceOnClick"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@id/basic_division"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@android:color/darker_gray"
+            android:text="@string/basic_math_divide"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:onClick="buttonDivisionOnClick"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@id/num_7"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@android:color/darker_gray"
+            android:text="@string/num_7"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:onClick="button7OnClick"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@id/num_8"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@android:color/darker_gray"
+            android:text="@string/num_8"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:onClick="button8OnClick"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@id/num_9"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@android:color/darker_gray"
+            android:text="@string/num_9"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:onClick="button9OnClick"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@id/basic_multiply"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@android:color/darker_gray"
+            android:text="@string/basic_math_multiply"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:onClick="buttonMultiplyOnClick"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@id/num_4"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@android:color/darker_gray"
+            android:text="@string/num_4"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:onClick="button4OnClick"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@id/num_5"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@android:color/darker_gray"
+            android:text="@string/num_5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:onClick="button5OnClick"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@id/num_6"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@android:color/darker_gray"
+            android:text="@string/num_6"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:onClick="button6OnClick"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@id/basic_subtract"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@android:color/darker_gray"
+            android:text="@string/basic_math_subtract"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:onClick="buttonSubtractOnClick"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@id/num_1"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@android:color/darker_gray"
+            android:text="@string/num_1"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:onClick="button1OnClick"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@id/num_2"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@android:color/darker_gray"
+            android:text="@string/num_2"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:onClick="button2OnClick"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@id/num_3"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@android:color/darker_gray"
+            android:text="@string/num_3"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:onClick="button3OnClick"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@id/basic_add"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@android:color/darker_gray"
+            android:text="@string/basic_math_add"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:onClick="buttonAddOnClick"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@id/num_0"
+            android:layout_width="118dp"
+            android:layout_height="70dp"
+            android:background="@android:color/darker_gray"
+            android:text="@string/num_0"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:onClick="button0OnClick"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@id/decimal_place"
+            android:layout_width="118dp"
+            android:layout_height="70dp"
+            android:background="@android:color/darker_gray"
+            android:text="@string/decimal_place"
+            android:onClick="buttonDecimalPlaceOnClick"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@id/basic_answer"
+            android:layout_width="118dp"
+            android:layout_height="70dp"
+            android:background="@android:color/darker_gray"
+            android:text="@string/string_answer"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:onClick="buttonAnswerOnClick"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

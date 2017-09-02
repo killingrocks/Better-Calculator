@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="num_0" type="id">num_0</item>
+    <item name="decimal_place" type="id">decimal_place</item>
+    <item name="basic_answer" type="id">basic_answer</item>
+    <item name="basic_add" type="id">basic_add</item>
+    <item name="num_3" type="id">num_3</item>
+    <item name="num_2" type="id">num_2</item>
+    <item name="num_1" type="id">num_1</item>
+    <item name="basic_subtract" type="id">basic_subtract</item>
+    <item name="num_6" type="id">num_6</item>
+    <item name="num_5" type="id">num_5</item>
+    <item name="clear_view" type="id">clear_view</item>
+    <item name="plus_or_minus" type="id">plus_or_minus</item>
+    <item name="back_space" type="id">back_space</item>
+    <item name="basic_division" type="id">basic_division</item>
+    <item name="num_7" type="id">num_7</item>
+    <item name="num_8" type="id">num_8</item>
+    <item name="num_9" type="id">num_9</item>
+    <item name="basic_multiply" type="id">basic_multiply</item>
+    <item name="num_4" type="id">num_4</item>
+</resources>
